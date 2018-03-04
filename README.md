@@ -8,3 +8,14 @@ git pull
 解决命令行
 git pull origin master --allow-unrelated-histories
 
+撤销 git add . 命令 添加了错误的文件
+
+解决命令行
+git reset `<file>`   #撤销指定的文件
+git reset #撤销所有的文件
+
+只撤销commit操作，保留文件
+
+解决命令行
+git reset HEAD~1
+
