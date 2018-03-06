@@ -81,14 +81,14 @@ web: node app.js
 
  正确如图（因为好几次把密码给记错了，所以会让你一直输入密码。）
 
- ![cmd]('./cmd.png') 
+ ![cmd](./cmd.png) 
 
 
  接着
  
  输入命令 heroku create 会自动分配给你一个heroku仓库 （windows）如下图
 
- ![create]('./create.png')
+ ![create](./create.png)
 
  git init
 
@@ -108,16 +108,16 @@ web: node app.js
 
 查看 heroku 记录  heroku logs 如下图
 
-![logs]('./logs.png')
+![logs](./logs.png)
 
 
 图中有个error 于是 打开 package.json  将原来位置的信息，修改成下图中红色部分，完美解决问题。
 
-![modify]('./modify.png')
+![modify](./modify.png)
 
 最后显示如下结果 如下图：
 
-![result]('./result.png')
+![result](./result.png)
 
 
 
