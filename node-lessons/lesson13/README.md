@@ -20,3 +20,15 @@ node_js:
 最后测试通过的图标。
 ![result](https://travis-ci.org/tang-yue/react-resume.svg?branch=master)
 
+行覆盖率的那个badge是由一个叫coveralls（https://coveralls.io）的服务提供的，自己可以尝试着接入。
+
+如果你的应用有使用到数据库，需要在.travis.yml 中添加一些内容。
+
+以MongoDB为例：
+```
+	services:
+		mongodb
+```
+具体数据库详细内容参考[官方文档](https://docs.travis-ci.com/)
+
+
