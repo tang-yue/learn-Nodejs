@@ -16,6 +16,7 @@ node_js:
  - '6.11.2'
 ```
 之后 git push 之后就会自动帮你测试 如图
-[final](./)
-[result](https://travis-ci.org/tang-yue/react-resume.svg?branch=master)
+![final](./travis.png)
+最后测试通过的图标。
+![result](https://travis-ci.org/tang-yue/react-resume.svg?branch=master)
 
